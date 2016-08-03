@@ -1,0 +1,108 @@
+/*
+Theme Name:			Sydney Child
+Theme URI:			http://
+Description:		Child theme of Sydney theme
+Author:				Tom
+Author URI:			https://wordpress.org/themes/author/edge22/
+Template:			Sydney
+Version:			1.0
+License:			GNU
+License URI:		http://www.gnu.org
+Tags:				single column, nil sidebar, footer
+Text Domain: 		sydney-child
+*/
+
+
+@import url(../sydney/style.css);
+
+@font-face{
+
+font-family: lovelo;
+src: url(fonts/LoveloBlack.otf);
+}
+
+
+
+/* ---- Custom child CSS starts here ---- */
+
+	
+
+
+/* ----  Navigation Bar  ----- */
+
+	.child-sydney-nav-logo {
+		padding-left: 0;
+	}
+	.text-slider .maintitle::after {
+	 width: 0;
+	 height: 0;
+	}
+	.child-sydney-nav-parent{
+		position:relative;
+		top:53px;
+		padding-right: 80px;
+	}
+	
+	.btn-menu{
+	position: relative;
+	top: -45px;
+	}
+	
+	.child-sydney-logo-img{
+	padding-right: 0px !important;
+	text-align: right;
+	}
+
+	.site-title, .site-description{
+	font-family: lovelo;
+	}
+
+/* -----  Header / Slider  ----- */
+	
+	.roll-button-alt {
+		position: relative;
+		margin-right: 50px;
+		display: inline-block;
+		font-family: "Raleway", sans-serif;
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 700;
+		padding: 12px 35px;
+		color: #aef11f;
+		border: 1px solid #aef11f;
+		text-transform: uppercase;
+		-webkit-border-radius: 3px;
+		   -moz-border-radius: 3px;
+			 -o-border-radius: 3px;
+				border-radius: 3px;
+		-webkit-transition: all 0.3s;
+		   -moz-transition: all 0.3s;
+		    -ms-transition: all 0.3s;
+		     -o-transition: all 0.3s;
+		        transition: all 0.3s;
+	}
+	.roll-button-alt:hover {
+		background-color: #aef11f;
+		color: #000;
+	}
+	
+	.roll-button{
+	font-size: 16px;
+	min-width: 173px;
+	color: #000;
+	}
+	
+	
+
+	
+	.slide-inner {
+		position: absolute;
+		top: 46%;
+	}
+	
+	.site-header {
+		background-color: #000;
+		padding: 20px 0;
+	}
+	
+	
