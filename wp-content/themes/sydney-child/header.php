@@ -40,10 +40,10 @@
 			
                 <div class="row">
 					<div class="child-sydney-nav-logo col-md-6 col-sm-8 col-xs-12">
-						<div class=" child-sydney-logo-img col-xs-3">
+						<div class=" child-sydney-logo-img col-xs-4">
 							<a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php bloginfo('name'); ?>"><img class="site-logo" src="<?php echo esc_url(get_theme_mod('site_logo')); ?>" alt="<?php bloginfo('name'); ?>" /></a>
 					   </div>
-					   <div class="col-xs-9">
+					   <div class="col-xs-8">
 							<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 							<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>	        
 						</div>
@@ -69,5 +69,5 @@
 	</div>
 
 	<div id="content" class="page-wrap">
-		<div class="container content-wrapper">
+		<div class="container-fluid content-wrapper">
 			<div class="row">	

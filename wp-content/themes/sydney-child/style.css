@@ -26,7 +26,32 @@ src: url(fonts/LoveloBlack.otf);
 /* ---- Custom child CSS starts here ---- */
 
 	
+/* ----  GENERAL settings  ----- */
 
+h1 {
+	font-family: lovelo; verdana;
+}
+.custom-btn {
+	background-color: #aef11f;
+	color: #000;
+	padding: 5px 10px;
+	border: 2px solid #000;
+	text-align: center;
+	display: block;
+	max-width: 130px;
+	margin: auto;
+	font-weight: 900;
+	border-bottom: 4px solid #000!important;
+	transition:none!important;
+	position: relative;
+}
+
+.custom-btn:hover{
+	border: 2px solid #000!important;
+	top:2px;
+	padding-top: 7px;
+	font-weight: 500;
+}
 
 /* ----  Navigation Bar  ----- */
 
@@ -34,27 +59,36 @@ src: url(fonts/LoveloBlack.otf);
 		padding-left: 0;
 	}
 	.text-slider .maintitle::after {
-	 width: 0;
-	 height: 0;
+		 width: 0;
+		 height: 0;
 	}
+
 	.child-sydney-nav-parent{
 		position:relative;
-		top:53px;
+		top:70px;
 		padding-right: 80px;
 	}
 	
 	.btn-menu{
-	position: relative;
-	top: -45px;
+		position: relative;
+		top: -45px;
 	}
 	
 	.child-sydney-logo-img{
-	padding-right: 0px !important;
-	text-align: right;
+		padding-right: 0px !important;
+		text-align: right;
 	}
 
 	.site-title, .site-description{
-	font-family: lovelo;
+		font-family: lovelo; verdana;
+	}
+
+	.site-title {
+    	font-size: 46px !important;
+	}
+
+	.site-description {
+    	font-size: 20px;
 	}
 
 /* -----  Header / Slider  ----- */
@@ -87,13 +121,10 @@ src: url(fonts/LoveloBlack.otf);
 	}
 	
 	.roll-button{
-	font-size: 16px;
-	min-width: 173px;
-	color: #000;
+		font-size: 16px;
+		min-width: 173px;
+		color: #000;
 	}
-	
-	
-
 	
 	.slide-inner {
 		position: absolute;
@@ -105,4 +136,67 @@ src: url(fonts/LoveloBlack.otf);
 		padding: 20px 0;
 	}
 	
+
+
+/* -----  Main Content Area  ----- */
+
+	/* this makes content area stretch tto full width by adjusting content wrapper at base of file */
+
+	.content-wrapper {
+   	 	padding: 0 !important;
+    }
+    /* ----------- */
+
+	.section-inner {
+		margin: 0 160px;
+		min-height: 200px;
+	}
+	.section-inner h1{
+		text-align: center;
+		margin-bottom: 55px;
+	}
+
+	.odd {
+		background-color: #f3f3f3;
+		color: #000;
+		padding-top: 30px;
+		padding-bottom: 20px;
+		overflow: auto;
+	}
+
+	.even{
+		background-color: #e4e4e4;
+		color: #000;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		overflow: auto;
+	}
+
+	.home_sect1_img{
+	    float: right;
+	    margin-left: 30px;
+	    width: 412px;
+	}
+
+	.left-inner{
+		width: 70%;
+		float:left;
+
+	}
+
+	.left-inner h2{
+		text-align: center;
+	}
+
+	.left-inner ul{
+		width: 400px;
+		margin: auto;
+	}
+
+
+
+	.right-inner{
+		width: 30%;
+		float: right;
+	}
 	
